@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+.home {
+  position: relative;
+  height: 100%;
+  width: 100;
+  margin: 0;
+  background: url("https://media.giphy.com/media/BtLZNZ5OLqB3i/giphy.gif")no-repeat fixed;
+  font-family: 'Shrikhand', cursive;
+  background-size: cover;
+}
+
+h1 {
+  color: blue;
+  Font-size: 6em;
+  border: 28;
+  font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+  color: blue;
+  font-size: 3em;
+  font-family: 'Shrikhand', cursive;
+}
+
+p {
+  font-size: 2em;
+  Color: blue;
+  font-family: 'Shrikhand', cursive;
+}
+
+ol {
+  color: blue;
+  Font-size: 3em;
+  font-family: 'Shrikhand', cursive;
+}
+
+li {
+  color: blue;
+  font-size: 1em;
+  font-family: 'Shrikhand', cursive;
+}
+
+img {
+  width: 10%;
+  border-radius: 2%;
+  padding: 20px 10px 15px 5px;
+  justify-content: flex-start;
+
+}
+
+img:hover {
+  transition: width 4s;
+  width: 15%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid;
+  border-color: black;
+  background-color: purple;
+  margin: 0%;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  align-items: columns;
+  font-size: .7em;
+  font-family: 'Shrikhand', cursive;
+}
+
+.nav-item a {
+  color: white;
+}
+
+footer {
+  background-color: aqua;
+  width: 100%;
+  height: 6em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  flex-wrap: wrap;
+  border-top: solid;
+  bottom: 0%;
+}
+
+main {
+  padding: 5%;
+  position: absolute;
+  min-height: 100vh;
+}
+
+body {
+  width: 100%;
+  margin: 0%;
+  min-height: 100vh;
+}
+
+footer a {
+  color: black;
+  font-family: 'Shrikhand', cursive;
+  font-size: 2em;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+.food {
+  color: black;
+  background-color: white;
+}
+
+.html2 {
+  background-image: url("https://media.giphy.com/media/XUKWg5z1Aa2Na/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.html3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/df/Mygalomorphae_Actinopodidae_Missulena_bradleyi_Eastern_Mouse_Spider_The_Gap_Brisbane_006.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.thumbnail-gallery {
+  border: solid 1px black;
+  display: flex;
+  flex direction: row;
+  flex-wrap: wrap;
+  justify content: center;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+}
+
+div {
+  width: 48%;
+  text-align: center;
+  margin: .5em;
+  border: solid red 2px;
+}
+
+img {
+  width: 50%;
+}
+
+.album1 {
+  border-color: blue;
+}
